@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+
+body{
+	background-color: #05668D;
+	font-family: 'Rubik', sans-serif;
+}
+
+h1{
+	font-size: 60px;
+	text-transform: Uppercase;
+	color: #FAA300;
+	text-shadow: 1px 2px 3px black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h3{
+	color: #FAA300;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: underline #FAA300;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#board {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+}
+
+.cell {
+	width: 115px;
+	height: 115px;
+	background-color: #EEF0F2;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	margin: 10px;
+	font-size: 72px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	
+}
+
+.btn{
+	height: 100px;
+}
+
+button {
+	margin-top: 10px;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 6px;
+	margin: 0 auto;
+	display: block;
+	padding: 8px 16px;
+	cursor:pointer;
+	transition: background-color .5s;
+}
+
+button.hover{
+	background-color: black;
+}
+
+#message {
+	margin-top: 10px;
+	margin-bottom: 3px;
+	font-size: 32px;
+	text-align: center;
+	color: #EEF0F2;
+}
+
+
