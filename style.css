@@ -65,9 +65,9 @@ h3{
 button {
 	margin-top: 10px;
 	font-size: 16px;
-	padding: 10px;
 	border-radius: 6px;
-	margin: 0 auto;
+	margin: auto;
+	margin-top: 0;
 	display: block;
 	padding: 8px 16px;
 	cursor:pointer;
